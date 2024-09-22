@@ -12,7 +12,7 @@ transparent = false
 +++
 
 ### STArFLOW
-<img src="\img\AgePosterior" width="800" alt="Age Posterior">
+<img src="\img\AgePosterior.png" width="800" alt="Age Posterior">
 
 <div style="font-size: 18px;">
     I am currently developing a machine learning-based method called STArFLOW, using normalizing flows to estimate stellar ages. This model takes stellar parameters and chemical abundances to produce posterior age distributions for individual stars. The approach is particularly effective for stars aged between 1 to 8 billion years (Gyr), and its key strength lies in providing a deeper understanding of the uncertainties associated with its predictions. 
