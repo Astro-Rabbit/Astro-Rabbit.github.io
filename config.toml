@@ -1,0 +1,96 @@
+# The theme of the site
+theme = "zola-academic"
+
+
+# The title of the site
+title = "Alexander Stone-Martinez"
+
+# The URL the site will be built for
+base_url = "https://Astro-Rabbit.github.io/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+# highlight_code = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[extra]
+# Put all your custom variables here
+
+# Author of the page
+author = "Alexander Stone-Martinez"
+
+# Role of the author
+role = "PhD Candidate"
+
+# Organizations of the author
+organizations = [ { name = "New Mexico State University", url = "/#" } ]
+
+# Whether the navbar should be screen wide or page wide
+wide_navbar = false
+
+# Url of your profile pic
+# You should put your portrait in the static directory.
+portrait = "/static/img/photo.jpg"
+
+# The links you want to put on the left of the navbar
+menu_left = [
+  { name = "Home", link = "" }
+]
+
+# The links you want to put on the right of the navbar
+menu_right = [
+    { name = "Projects", link = "/#projects" },
+    { name = "Publications", link = "/#publications" },
+    { name = "Personal", link = "personal" },
+    { name = "Contact", link = "/#contact" }
+]
+
+# Social icons that will appear under your profile box
+social_icons = [
+{icon="fa-envelope", icon_pack="fa", link="mailto:stonemaa@nmsu.edu"},
+{icon="ai-orcid", icon_pack="ai", link="https://orcid.org/0000-0003-4761-9305"},
+{icon="fa-github", icon_pack="fab", link="https://github.com/Astro-Rabbit" },
+]
+
+# Summary at the top
+summary = [
+{icon="ai-cv", icon_pack="ai", text="", link="files/CV_StoneMartinez.pdf", fontsize="18px", iconsize="30px"}
+]
+
+
+# Your interests
+interests = [
+    { label = "Stellar Ages"},
+    { label = "Galactic Archeology"},
+    { label = "Asteroseismology"},
+    { label = "Machine Learning" },
+    { label = "Virtual Outreach"}
+]
+
+# Your diplomas
+education = [
+{course = "PhD in Astronomy", institution = "New Mexico State University (expected)", year = 2025},
+{course = "BSc in Astronomy & Astrophysics", institution = "Embry Riddle Aeronautical University", year = 2019},
+]
+
+# The ways people can contact you
+contact_links = [
+  {icon="fa-envelope", icon_pack="fa", name = "Email me", link="mailto:stonemaa@nmsu.edu"},
+  {icon = "fa-discord", icon_pack = "fab", name = "_astrorabbit"},
+]
+
+# Disable the footer
+disable_footer = true
+
+# Widgets to show on main page
+show_publications = true
+show_posts = false
+show_projects = true
+
+# Hue of the theme
+hue = 210
